@@ -1,12 +1,12 @@
 package Udemy;
 
-public class TransformarTemperatura {
+public class ChangeTemperature {
     public static void main(String[] args) {
         // Formula = (F - 32) * 5/9.0 = C
-        final int ajuste = 32;
-        final double fator = 5/9.0;
+        final int adjustment = 32;
+        final double factor = 5/9.0;
         int F = 32;
-        double C = (F - ajuste) * fator ;
+        double C = (F - adjustment) * factor ;
         System.out.print(C);
     }
 }
