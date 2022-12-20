@@ -1,8 +1,8 @@
 package Udemy;
 
-public class TiposPrimitivos {
+public class TypePrimitives {
     public static void main(String[] args) {
-        // Tipos numericos inteiros
+        // Types numeric int
         byte a = -128;
         byte b = 127;
 
@@ -12,23 +12,23 @@ public class TiposPrimitivos {
         int e = -2147483648;
         int f = 2147483647;
 
-        // Perceba a letra L no final do número
+        // Realize the letter L in the end of number
         long g = -9223372036854775808L;
         long h = 9223372036854775807L;
 
-        // Tips numeric reais
-        // Perceba a letra f no final do numero
+        // Types numeric real
+        // Realize the letter f in the final of number
         float i = -100.4345f;
         float j = 123243.4345f;
 
         double k = -3123.434354;
         double l = 321321.3123435;
 
-        // Tips boolean
+        // Types boolean
         boolean m = false;
         boolean n = true;
 
-        // Tip character
+        // Types character
         char o = 'a';
         char p = '4';
         char q = '?';
