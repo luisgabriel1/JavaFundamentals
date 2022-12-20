@@ -2,7 +2,7 @@ package Udemy;
 
 import java.util.Scanner;
 
-public class ConsoleTheIn {
+public class ConsoleAndIn {
     public static void main(String[] args) {
         System.out.println("Good");
         System.out.println("Morning!\n\n");
