@@ -1,14 +1,14 @@
 package Udemy;
 
-public class ConversaoTipoPrimitivoNumerico {
+public class ConversionTypePrimitiveNumeric {
     public static void main(String[] args) {
 
-        double a = 1; // Conversão IMPLICITA
+        double a = 1; // Conversion IMPLIED
 
-        float b = 1.123456788888F; // Conversão EXPLICITA sem usar (CAST)
-        float bb = (float) 1.123456788888; // Conversão EXPLICITA usando o (CAST)
+        float b = 1.123456788888F; // Conversion EXPLICIT without using (CAST)
+        float bb = (float) 1.123456788888; // Conversion EXPLICIT used the (CAST)
 
-        // A preferencia de conversão é usando o (CAST)
+        // The preferenci of conversion is used the (CAST)
 
         int c = 4;
         byte d = (byte) c;
