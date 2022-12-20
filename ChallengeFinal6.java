@@ -9,30 +9,30 @@ public class ChallengeFinal6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Equação: ax² + bx + c = 0");
+        System.out.println("Equation: ax² + bx + c = 0");
 
-        System.out.println("\nDigite o valor de A: ");
+        System.out.println("\nEnter the value of A: ");
         int a = scanner.nextInt();
 
-        System.out.println("\nDigite o valor de B: ");
+        System.out.println("\nEnter the value of  B: ");
         int b = scanner.nextInt();
 
-        System.out.println("\nDigite o valor de C: ");
+        System.out.println("\nEnter the value of C: ");
         int c = scanner.nextInt();
 
         int delta = (b * b) - (4 * a * c);
 
-        System.out.printf("\nSua equação é: %dx² + %dx + %d = 0", a, b, c);
+        System.out.printf("\nYour equation is: %dx² + %dx + %d = 0", a, b, c);
 
-        System.out.println("\nO delta é: " + delta);
+        System.out.println("\nThe delta is: " + delta);
 
         double x1 = (-b + Math.sqrt(delta)) / (2 * a);
 
-        System.out.printf("O x1 da equação é: %.2f", x1);
+        System.out.printf("The x1 of equation is: %.2f", x1);
 
         double x2 = (-b - Math.sqrt(delta)) / (2 * a);
 
-        System.out.printf("\nO x2 da equação é: %.2f" ,x2);
+        System.out.printf("\nThe x2 of equation is: %.2f" ,x2);
 
         scanner.close();
     }
